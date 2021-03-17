@@ -15,7 +15,7 @@ public class PruebaVehiculo {
 		Furgoneta f1 = new Furgoneta("0003", 20);
 		Camion k1 = new Camion("0004", 150);
 
-		ArrayList<Vehiculo> vehiculos = new ArrayList();
+		ArrayList<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
 		vehiculos.add(c1);
 		vehiculos.add(m1);
 		vehiculos.add(f1);
