@@ -27,6 +27,7 @@ public class PruebaVehiculo {
 		for (Vehiculo v : vehiculos) {
 			System.out.println(v.getPrecioAlquiler(numDias));
 		}
+		
 
 	}
 
