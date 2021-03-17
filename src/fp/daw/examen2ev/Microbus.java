@@ -29,7 +29,7 @@ public double getPrecioAlquiler(int numDias) {
 
 @Override
 public String toString() {
-	return "microbus [numPlazas=" + numPlazas + ", toString()=" + super.toString() + "]";
+	return "Microbus [numPlazas=" + numPlazas + ", toString()=" + super.toString() + "]";
 }
 
 

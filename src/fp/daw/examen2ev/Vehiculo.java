@@ -18,7 +18,7 @@ public class Vehiculo implements Alquiler {
 
 	@Override
 	public String toString() {
-		return "vehiculo [matricula=" + matricula + "]";
+		return "Vehiculo [matricula=" + matricula + "]";
 	}
 
 	@Override

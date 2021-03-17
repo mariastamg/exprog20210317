@@ -23,7 +23,7 @@ final public class Camion extends Vehiculo {
 	}
 	@Override
 	public String toString() {
-		return "camion [PMA=" + PMA + ", toString()=" + super.toString() + "]";
+		return "Camion [PMA=" + PMA + ", toString()=" + super.toString() + "]";
 	}
 	
 	
