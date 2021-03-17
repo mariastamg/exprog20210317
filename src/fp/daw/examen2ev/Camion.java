@@ -1,13 +1,13 @@
 package fp.daw.examen2ev;
 
-final public class camion extends vehiculo {
+final public class Camion extends Vehiculo {
 	
 	private int PMA;
-	public camion(String matricula) {
+	public Camion(String matricula) {
 		super(matricula);
 		
 	}
-	public camion(String matricula, int pMA) {
+	public Camion(String matricula, int pMA) {
 		super(matricula);
 		PMA = pMA;
 	}
@@ -19,7 +19,7 @@ final public class camion extends vehiculo {
 	}
 	@Override
 	public double getPrecioAlquiler(int numDias) {
-		return super.getPrecioAlquiler(numDias) + 20 * this.getPMA()+40;
+		return super.getPrecioAlquiler(numDias) + (20 * this.getPMA())+40;
 	}
 	@Override
 	public String toString() {

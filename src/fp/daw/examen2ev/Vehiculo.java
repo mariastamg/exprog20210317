@@ -1,10 +1,10 @@
 package fp.daw.examen2ev;
 
-public class vehiculo implements alquiler {
+public class Vehiculo implements Alquiler {
 
 	protected static String matricula;
 
-	public vehiculo(String matricula) {
+	public Vehiculo(String matricula) {
 		this.matricula = matricula;
 	}
 

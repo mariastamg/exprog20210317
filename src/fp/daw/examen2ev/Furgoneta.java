@@ -1,15 +1,15 @@
 package fp.daw.examen2ev;
 
-final public class furgoneta extends vehiculo {
+final public class Furgoneta extends Vehiculo {
 
 	private int PMA;
 
-	public furgoneta(String matricula) {
+	public Furgoneta(String matricula) {
 		super(matricula);
 
 	}
 
-	public furgoneta(String matricula, int pMA) {
+	public Furgoneta(String matricula, int pMA) {
 		super(matricula);
 		PMA = pMA;
 	}

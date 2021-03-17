@@ -1,14 +1,14 @@
 package fp.daw.examen2ev;
 
-final public class microbus extends vehiculo {
+final public class Microbus extends Vehiculo {
 private int numPlazas;
 
 ////constructor de la superclase
-public microbus() {
+public Microbus() {
 	super(matricula);
 }
 
-public microbus(String matricula, int numPlazas) {
+public Microbus(String matricula, int numPlazas) {
 	super(matricula);
 	this.numPlazas = numPlazas;
 }

@@ -1,16 +1,16 @@
 package fp.daw.examen2ev;
 
-final public class coche extends vehiculo {
+final public class Coche extends Vehiculo {
 	
 	private int numPlazas;
 
 	//constructor de la superclase
-	public coche() {
+	public Coche() {
 		super(matricula);
 	}
 	//constructor que añade los parametros propios de coche
 
-	public coche(String matricula, int numPlazas) {
+	public Coche(String matricula, int numPlazas) {
 		super(matricula);
 		this.numPlazas = numPlazas;
 	}
